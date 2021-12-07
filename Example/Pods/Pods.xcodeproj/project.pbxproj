@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0934F56CA9E341314EEC3F9DE2FC0DB3 /* Pods-GKitGCD_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 527ADE087B845595EB890056CC15C935 /* Pods-GKitGCD_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F322888A1241435F45F998B30C612AD /* Pods-GKitGCD_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0603FB997196EF590E54625F2C4C6F69 /* Pods-GKitGCD_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23778413A82D43FF4A9A31356669657D /* GCD.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CD26AFD27B10C8B53B809CB41BA320 /* GCD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39BA405B0306ACDC6770391C7F32C651 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3B37122EA280FFDAD10EEC3C45924245 /* GCDTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F78A22C7038577637C1653944978228 /* GCDTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B83F0393E283ACF17B1059B0FF2DE1F /* Pods-GKitGCD_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E11826900092D5317514240A6719B66 /* Pods-GKitGCD_Example-dummy.m */; };
+		418A1E76E5BE94E5B8C23F4A75A684BB /* GCDGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = DDBC32DBC9CEBF52FF28F53CEB3DFCED /* GCDGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41AE122A1504CD65B5B12237C3E31ADE /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FE8C28EAD011DA1DB9C4016A2F53EE /* GCDQueue.m */; };
+		4DF138AF36CC72C178AB4E8B7E4C526B /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0884F5936A779E1CD84348E77C9EA398 /* GCDGroup.m */; };
+		760379CB311AE7A285DA8826751C1778 /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C20CD1DC29618C381E1CD22A64560C /* GCDSemaphore.m */; };
+		871B2496E095F12C34C9EA9A090A4AC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8C8FC6018D810E9F8020476D79C0BB0D /* Pods-GKitGCD_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77841EA099D40DA1962A714B41364575 /* Pods-GKitGCD_Tests-dummy.m */; };
+		908AA1C5FF7B4FB259C86D02A73685AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D351D2290724CAADF663928F124ADD6D /* GKitGCD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E99D0434945A2E064DB36DA1924AEA /* GKitGCD-dummy.m */; };
+		DEFD01D72C8020650284A2A5BFF98CE5 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D37FE0FDECC393597D1DF40C9DEC9F /* GCDTimer.m */; };
+		EFEB767970AB148C8BCB7C1BAC53FD54 /* GKitGCD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F90AE36A264485F3CFFF16751E37E00 /* GKitGCD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFEC206480834D874A64E4C27D39D83E /* GCDSemaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D340DF4649ED9A5A732829B7346319 /* GCDSemaphore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFCE4E0C70AACFF20813CB25592402F1 /* GCDQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FABB62A588D9ECDF06B9209C078B2A3 /* GCDQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39804CD52CB3CF1D7A0009659F022ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 873113ABB3D6890B67B073B291E35935;
+			remoteInfo = "Pods-GKitGCD_Example";
+		};
+		E64431318CF7FB4DBF1FE164CF120395 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD8414AA0340E987B89F4F9EC3EE7F7;
+			remoteInfo = GKitGCD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019138F1C442AD5F444EEE30031E13C8 /* Pods-GKitGCD_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GKitGCD_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0603FB997196EF590E54625F2C4C6F69 /* Pods-GKitGCD_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GKitGCD_Example-umbrella.h"; sourceTree = "<group>"; };
+		0884F5936A779E1CD84348E77C9EA398 /* GCDGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDGroup.m; path = GKitGCD/Classes/GCD/GCDGroup.m; sourceTree = "<group>"; };
+		09EB113A76FE738429615335552F8949 /* Pods-GKitGCD_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GKitGCD_Example"; path = Pods_GKitGCD_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FABB62A588D9ECDF06B9209C078B2A3 /* GCDQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDQueue.h; path = GKitGCD/Classes/GCD/GCDQueue.h; sourceTree = "<group>"; };
+		20D340DF4649ED9A5A732829B7346319 /* GCDSemaphore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDSemaphore.h; path = GKitGCD/Classes/GCD/GCDSemaphore.h; sourceTree = "<group>"; };
+		29E42B6EE30152D6685DBDDE5F6CCE36 /* GKitGCD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GKitGCD; path = GKitGCD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3070D59D96A32F3F7747DDCE2AF0207B /* Pods-GKitGCD_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GKitGCD_Tests"; path = Pods_GKitGCD_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		326E1BCCFCD3190F0CC086E105871CE5 /* GKitGCD.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GKitGCD.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		32D37FE0FDECC393597D1DF40C9DEC9F /* GCDTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDTimer.m; path = GKitGCD/Classes/GCD/GCDTimer.m; sourceTree = "<group>"; };
+		3A1C7B8B37A2D17E23C7AF9476621515 /* GKitGCD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GKitGCD.release.xcconfig; sourceTree = "<group>"; };
+		3E11826900092D5317514240A6719B66 /* Pods-GKitGCD_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GKitGCD_Example-dummy.m"; sourceTree = "<group>"; };
+		3F90AE36A264485F3CFFF16751E37E00 /* GKitGCD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GKitGCD-umbrella.h"; sourceTree = "<group>"; };
+		4D48FADDB132A4CDF74EF84448D2C7FE /* Pods-GKitGCD_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GKitGCD_Example-frameworks.sh"; sourceTree = "<group>"; };
+		527ADE087B845595EB890056CC15C935 /* Pods-GKitGCD_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GKitGCD_Tests-umbrella.h"; sourceTree = "<group>"; };
+		542C00885D557F8ACE2F2C44799D92F7 /* Pods-GKitGCD_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GKitGCD_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5950192CA72C610E3C7A2E4483EC05AC /* Pods-GKitGCD_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GKitGCD_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F78A22C7038577637C1653944978228 /* GCDTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDTimer.h; path = GKitGCD/Classes/GCD/GCDTimer.h; sourceTree = "<group>"; };
+		67FE8C28EAD011DA1DB9C4016A2F53EE /* GCDQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDQueue.m; path = GKitGCD/Classes/GCD/GCDQueue.m; sourceTree = "<group>"; };
+		6EF735A682A8E17E1A27473A51AF6414 /* Pods-GKitGCD_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GKitGCD_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77841EA099D40DA1962A714B41364575 /* Pods-GKitGCD_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GKitGCD_Tests-dummy.m"; sourceTree = "<group>"; };
+		80AB612E9670AB1B0F6F32C6C8F68509 /* GKitGCD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GKitGCD-prefix.pch"; sourceTree = "<group>"; };
+		8BB8DFA29462DE176A3CDEB498E3ACB9 /* Pods-GKitGCD_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GKitGCD_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D4A616C8BAC2E1E5B5682BACCFEA5D8 /* Pods-GKitGCD_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GKitGCD_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A370A37A28EE8FCCF345DCEE6C4756FA /* Pods-GKitGCD_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GKitGCD_Tests.modulemap"; sourceTree = "<group>"; };
+		AA688A57F381E3A2FC5C241BABA57D2D /* GKitGCD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GKitGCD-Info.plist"; sourceTree = "<group>"; };
+		B040A888D733E4154048C1AA677D4ACE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B6405A61392507DFC85CF26C343290F8 /* Pods-GKitGCD_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GKitGCD_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8508A58233E5ABEA3D1BFD89588CDF3 /* GKitGCD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GKitGCD.modulemap; sourceTree = "<group>"; };
+		B8A3F038B6A5842400B8292D2AD2020F /* Pods-GKitGCD_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GKitGCD_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C0C20CD1DC29618C381E1CD22A64560C /* GCDSemaphore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDSemaphore.m; path = GKitGCD/Classes/GCD/GCDSemaphore.m; sourceTree = "<group>"; };
+		C22CB8B210E39DA126C3F5736795533A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C3CDB0CF384B777A87525ED495660B73 /* Pods-GKitGCD_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GKitGCD_Example.modulemap"; sourceTree = "<group>"; };
+		D04AD6C73C29374CCB1819E25E2723A3 /* Pods-GKitGCD_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GKitGCD_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DDBC32DBC9CEBF52FF28F53CEB3DFCED /* GCDGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDGroup.h; path = GKitGCD/Classes/GCD/GCDGroup.h; sourceTree = "<group>"; };
+		DFA78B78B5079F154434D4B7946C8643 /* GKitGCD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GKitGCD.debug.xcconfig; sourceTree = "<group>"; };
+		E5F830794F651F65259A8DAD2BDC8AAE /* Pods-GKitGCD_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GKitGCD_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8CD26AFD27B10C8B53B809CB41BA320 /* GCD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCD.h; path = GKitGCD/Classes/GCD/GCD.h; sourceTree = "<group>"; };
+		E9E99D0434945A2E064DB36DA1924AEA /* GKitGCD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GKitGCD-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		605A565388F1EBCE0760E35F62E56840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BA405B0306ACDC6770391C7F32C651 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6540D0330E6A4135C2EE99B681AB2B35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871B2496E095F12C34C9EA9A090A4AC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C09F791E51CE132CFB662F7D62A4D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908AA1C5FF7B4FB259C86D02A73685AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048591BC196FCFB70DB28677C6AD4CF0 /* Pods-GKitGCD_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C3CDB0CF384B777A87525ED495660B73 /* Pods-GKitGCD_Example.modulemap */,
+				019138F1C442AD5F444EEE30031E13C8 /* Pods-GKitGCD_Example-acknowledgements.markdown */,
+				5950192CA72C610E3C7A2E4483EC05AC /* Pods-GKitGCD_Example-acknowledgements.plist */,
+				3E11826900092D5317514240A6719B66 /* Pods-GKitGCD_Example-dummy.m */,
+				4D48FADDB132A4CDF74EF84448D2C7FE /* Pods-GKitGCD_Example-frameworks.sh */,
+				9D4A616C8BAC2E1E5B5682BACCFEA5D8 /* Pods-GKitGCD_Example-Info.plist */,
+				0603FB997196EF590E54625F2C4C6F69 /* Pods-GKitGCD_Example-umbrella.h */,
+				8BB8DFA29462DE176A3CDEB498E3ACB9 /* Pods-GKitGCD_Example.debug.xcconfig */,
+				D04AD6C73C29374CCB1819E25E2723A3 /* Pods-GKitGCD_Example.release.xcconfig */,
+			);
+			name = "Pods-GKitGCD_Example";
+			path = "Target Support Files/Pods-GKitGCD_Example";
+			sourceTree = "<group>";
+		};
+		316D612758CEA1614CBB6DAD364E6C2E /* Pods-GKitGCD_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A370A37A28EE8FCCF345DCEE6C4756FA /* Pods-GKitGCD_Tests.modulemap */,
+				E5F830794F651F65259A8DAD2BDC8AAE /* Pods-GKitGCD_Tests-acknowledgements.markdown */,
+				542C00885D557F8ACE2F2C44799D92F7 /* Pods-GKitGCD_Tests-acknowledgements.plist */,
+				77841EA099D40DA1962A714B41364575 /* Pods-GKitGCD_Tests-dummy.m */,
+				6EF735A682A8E17E1A27473A51AF6414 /* Pods-GKitGCD_Tests-Info.plist */,
+				527ADE087B845595EB890056CC15C935 /* Pods-GKitGCD_Tests-umbrella.h */,
+				B6405A61392507DFC85CF26C343290F8 /* Pods-GKitGCD_Tests.debug.xcconfig */,
+				B8A3F038B6A5842400B8292D2AD2020F /* Pods-GKitGCD_Tests.release.xcconfig */,
+			);
+			name = "Pods-GKitGCD_Tests";
+			path = "Target Support Files/Pods-GKitGCD_Tests";
+			sourceTree = "<group>";
+		};
+		4BB9633CE5D4201C5F3853FC02F944ED /* GKitGCD */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD26AFD27B10C8B53B809CB41BA320 /* GCD.h */,
+				DDBC32DBC9CEBF52FF28F53CEB3DFCED /* GCDGroup.h */,
+				0884F5936A779E1CD84348E77C9EA398 /* GCDGroup.m */,
+				1FABB62A588D9ECDF06B9209C078B2A3 /* GCDQueue.h */,
+				67FE8C28EAD011DA1DB9C4016A2F53EE /* GCDQueue.m */,
+				20D340DF4649ED9A5A732829B7346319 /* GCDSemaphore.h */,
+				C0C20CD1DC29618C381E1CD22A64560C /* GCDSemaphore.m */,
+				5F78A22C7038577637C1653944978228 /* GCDTimer.h */,
+				32D37FE0FDECC393597D1DF40C9DEC9F /* GCDTimer.m */,
+				B992A443DCA4C229C29BE57A0B186F0D /* Pod */,
+				B4934287B2A28D12BF493CEC39EF6F0B /* Support Files */,
+			);
+			name = GKitGCD;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8AD6576E1D9DFFB5F574D4641BE1CC02 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BB9633CE5D4201C5F3853FC02F944ED /* GKitGCD */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B4934287B2A28D12BF493CEC39EF6F0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8508A58233E5ABEA3D1BFD89588CDF3 /* GKitGCD.modulemap */,
+				E9E99D0434945A2E064DB36DA1924AEA /* GKitGCD-dummy.m */,
+				AA688A57F381E3A2FC5C241BABA57D2D /* GKitGCD-Info.plist */,
+				80AB612E9670AB1B0F6F32C6C8F68509 /* GKitGCD-prefix.pch */,
+				3F90AE36A264485F3CFFF16751E37E00 /* GKitGCD-umbrella.h */,
+				DFA78B78B5079F154434D4B7946C8643 /* GKitGCD.debug.xcconfig */,
+				3A1C7B8B37A2D17E23C7AF9476621515 /* GKitGCD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GKitGCD";
+			sourceTree = "<group>";
+		};
+		B992A443DCA4C229C29BE57A0B186F0D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				326E1BCCFCD3190F0CC086E105871CE5 /* GKitGCD.podspec */,
+				B040A888D733E4154048C1AA677D4ACE /* LICENSE */,
+				C22CB8B210E39DA126C3F5736795533A /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8AD6576E1D9DFFB5F574D4641BE1CC02 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E271FD30D2D23CCB4A623BB599E7172B /* Products */,
+				F652E63DD3643B2A9168D544D98C494F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E271FD30D2D23CCB4A623BB599E7172B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29E42B6EE30152D6685DBDDE5F6CCE36 /* GKitGCD */,
+				09EB113A76FE738429615335552F8949 /* Pods-GKitGCD_Example */,
+				3070D59D96A32F3F7747DDCE2AF0207B /* Pods-GKitGCD_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F652E63DD3643B2A9168D544D98C494F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				048591BC196FCFB70DB28677C6AD4CF0 /* Pods-GKitGCD_Example */,
+				316D612758CEA1614CBB6DAD364E6C2E /* Pods-GKitGCD_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E6A737D3039B5CB08DB8DCABCD45F35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F322888A1241435F45F998B30C612AD /* Pods-GKitGCD_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7BC10EC02183A3DBC324B796513E9ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0934F56CA9E341314EEC3F9DE2FC0DB3 /* Pods-GKitGCD_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98C55E1C978BEB2C19A166C72E1F642 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23778413A82D43FF4A9A31356669657D /* GCD.h in Headers */,
+				418A1E76E5BE94E5B8C23F4A75A684BB /* GCDGroup.h in Headers */,
+				FFCE4E0C70AACFF20813CB25592402F1 /* GCDQueue.h in Headers */,
+				EFEC206480834D874A64E4C27D39D83E /* GCDSemaphore.h in Headers */,
+				3B37122EA280FFDAD10EEC3C45924245 /* GCDTimer.h in Headers */,
+				EFEB767970AB148C8BCB7C1BAC53FD54 /* GKitGCD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		873113ABB3D6890B67B073B291E35935 /* Pods-GKitGCD_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B3AE4028DC60E13894E9FDFA7E4BD0A /* Build configuration list for PBXNativeTarget "Pods-GKitGCD_Example" */;
+			buildPhases = (
+				3E6A737D3039B5CB08DB8DCABCD45F35 /* Headers */,
+				EFC9A7AC878DA4CFF59F3431298BF16C /* Sources */,
+				94C09F791E51CE132CFB662F7D62A4D6 /* Frameworks */,
+				234A1CE74CAFCA236C68840AAA264494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C16E6E099BD5FC95FFC582DAC7C44A5 /* PBXTargetDependency */,
+			);
+			name = "Pods-GKitGCD_Example";
+			productName = Pods_GKitGCD_Example;
+			productReference = 09EB113A76FE738429615335552F8949 /* Pods-GKitGCD_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CD8414AA0340E987B89F4F9EC3EE7F7 /* GKitGCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162CA2CCECE65CBD80C505B91ED1D281 /* Build configuration list for PBXNativeTarget "GKitGCD" */;
+			buildPhases = (
+				F98C55E1C978BEB2C19A166C72E1F642 /* Headers */,
+				FE07285CB9E4FC110BB203555C77972D /* Sources */,
+				605A565388F1EBCE0760E35F62E56840 /* Frameworks */,
+				54542E2CE47D04AAE17E61E4FF738FAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKitGCD;
+			productName = GKitGCD;
+			productReference = 29E42B6EE30152D6685DBDDE5F6CCE36 /* GKitGCD */;
+			productType = "com.apple.product-type.framework";
+		};
+		C47F2991AB856A403E7998E0C0D12AD4 /* Pods-GKitGCD_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2F8EF6E5F89EDCB46C15EEC0B2E2FAA /* Build configuration list for PBXNativeTarget "Pods-GKitGCD_Tests" */;
+			buildPhases = (
+				F7BC10EC02183A3DBC324B796513E9ED /* Headers */,
+				A92953B943874F51DE124636CBAE1BF7 /* Sources */,
+				6540D0330E6A4135C2EE99B681AB2B35 /* Frameworks */,
+				470B88E984B2E25133BB3F11C151B07B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28E1F84222105446E6F8902A1DC40947 /* PBXTargetDependency */,
+			);
+			name = "Pods-GKitGCD_Tests";
+			productName = Pods_GKitGCD_Tests;
+			productReference = 3070D59D96A32F3F7747DDCE2AF0207B /* Pods-GKitGCD_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E271FD30D2D23CCB4A623BB599E7172B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CD8414AA0340E987B89F4F9EC3EE7F7 /* GKitGCD */,
+				873113ABB3D6890B67B073B291E35935 /* Pods-GKitGCD_Example */,
+				C47F2991AB856A403E7998E0C0D12AD4 /* Pods-GKitGCD_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		234A1CE74CAFCA236C68840AAA264494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470B88E984B2E25133BB3F11C151B07B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54542E2CE47D04AAE17E61E4FF738FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A92953B943874F51DE124636CBAE1BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8FC6018D810E9F8020476D79C0BB0D /* Pods-GKitGCD_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFC9A7AC878DA4CFF59F3431298BF16C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B83F0393E283ACF17B1059B0FF2DE1F /* Pods-GKitGCD_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE07285CB9E4FC110BB203555C77972D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DF138AF36CC72C178AB4E8B7E4C526B /* GCDGroup.m in Sources */,
+				41AE122A1504CD65B5B12237C3E31ADE /* GCDQueue.m in Sources */,
+				760379CB311AE7A285DA8826751C1778 /* GCDSemaphore.m in Sources */,
+				DEFD01D72C8020650284A2A5BFF98CE5 /* GCDTimer.m in Sources */,
+				D351D2290724CAADF663928F124ADD6D /* GKitGCD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28E1F84222105446E6F8902A1DC40947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GKitGCD_Example";
+			target = 873113ABB3D6890B67B073B291E35935 /* Pods-GKitGCD_Example */;
+			targetProxy = 39804CD52CB3CF1D7A0009659F022ADC /* PBXContainerItemProxy */;
+		};
+		3C16E6E099BD5FC95FFC582DAC7C44A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GKitGCD;
+			target = 8CD8414AA0340E987B89F4F9EC3EE7F7 /* GKitGCD */;
+			targetProxy = E64431318CF7FB4DBF1FE164CF120395 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12A741C1B1FEFD1880C22B582C0702F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A3F038B6A5842400B8292D2AD2020F /* Pods-GKitGCD_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GKitGCD_Tests/Pods-GKitGCD_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GKitGCD_Tests/Pods-GKitGCD_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1E34CFC846C0F0548F21E6EFD66D71F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6405A61392507DFC85CF26C343290F8 /* Pods-GKitGCD_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GKitGCD_Tests/Pods-GKitGCD_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GKitGCD_Tests/Pods-GKitGCD_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		78D3F6ADFCB89739689F110BB49AC4D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BB8DFA29462DE176A3CDEB498E3ACB9 /* Pods-GKitGCD_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GKitGCD_Example/Pods-GKitGCD_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GKitGCD_Example/Pods-GKitGCD_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E953FF975FFFA38CC75F8E57665E58E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA78B78B5079F154434D4B7946C8643 /* GKitGCD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GKitGCD/GKitGCD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GKitGCD/GKitGCD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GKitGCD/GKitGCD.modulemap";
+				PRODUCT_MODULE_NAME = GKitGCD;
+				PRODUCT_NAME = GKitGCD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2BAE0E782DB87D844C4B8AA3A4B9BDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D04AD6C73C29374CCB1819E25E2723A3 /* Pods-GKitGCD_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GKitGCD_Example/Pods-GKitGCD_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GKitGCD_Example/Pods-GKitGCD_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE605AB51FD5A19333B3C868ECE7D52B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1C7B8B37A2D17E23C7AF9476621515 /* GKitGCD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GKitGCD/GKitGCD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GKitGCD/GKitGCD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GKitGCD/GKitGCD.modulemap";
+				PRODUCT_MODULE_NAME = GKitGCD;
+				PRODUCT_NAME = GKitGCD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		162CA2CCECE65CBD80C505B91ED1D281 /* Build configuration list for PBXNativeTarget "GKitGCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E953FF975FFFA38CC75F8E57665E58E /* Debug */,
+				DE605AB51FD5A19333B3C868ECE7D52B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B3AE4028DC60E13894E9FDFA7E4BD0A /* Build configuration list for PBXNativeTarget "Pods-GKitGCD_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D3F6ADFCB89739689F110BB49AC4D8 /* Debug */,
+				A2BAE0E782DB87D844C4B8AA3A4B9BDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2F8EF6E5F89EDCB46C15EEC0B2E2FAA /* Build configuration list for PBXNativeTarget "Pods-GKitGCD_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E34CFC846C0F0548F21E6EFD66D71F8 /* Debug */,
+				12A741C1B1FEFD1880C22B582C0702F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
